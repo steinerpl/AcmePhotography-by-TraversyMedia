@@ -1,26 +1,32 @@
 
-# Created by https://www.gitignore.io/api/windows
+# Created by https://www.gitignore.io/api/macos
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
 
-# Folder config file
-Desktop.ini
+# Icon must end with two \r
+Icon
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Thumbnails
+._*
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Windows shortcuts
-*.lnk
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 
-# End of https://www.gitignore.io/api/windows
+# End of https://www.gitignore.io/api/macos
