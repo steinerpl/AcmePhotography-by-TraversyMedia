@@ -74,12 +74,77 @@ main {
 	margin: 2rem 0 0 0;
 	text-decoration: none;
 	color: #333;
-	transition: background 500ms ease;
+	transition: all 500ms ease;
 }
 
 .btn:hover {
 	background: #f4f4f4;
 }
+
+
+#header {
+	padding: 1.5rem;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
+
+#header h2 {
+	border-left: 1px dotted #fff;
+	border-right: 1px dotted #fff;
+	display: inline-block;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.caption {
+	padding: .8rem;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 2rem 1rem;
+	margin: auto;
+	color: #333;
+}
+
+footer h3 {
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+
+/* Screen sizes 500px and up^ */
+
+@media (min-width: 500px) {
+	#landing {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		height: 100%;
+	}
+
+	#landing-text {
+		height: 100vh;
+	}
+
+	#landing-image {
+		height: 100vh;
+	}
+}
+
+/* Screen sizes 700px and up^ */
+
+@media (min-width: 700px) {
+	.btn {
+		padding: 1rem 3rem;
+	}
+}
+
+
 
 
 
