@@ -147,8 +147,40 @@ footer h3 {
 
 
 
+.tooltip {
+	padding: 10px 15px 12px 15px;
+	border-radius: 7px;
+	background-color: rgba(0, 0, 0, .8);
+	opacity: 1;
+	transition: visibility .2s, opacity .2s;
 
+	position: absolute;
+	z-index: 9999;
 
+	text-align: center;
+	color: #fff;
+	font: 12px/1 Tahoma, Arial, sans-serif;
+}
+
+.tooltip:after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -10px;
+	left:50%;
+	right: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -6px;
+	border-style: solid;
+	border-width: 10px 6px 0 6px;
+	border-color: rgba(0,0,0, .8) transparent transparent transparent;
+}
+
+.tooltip.hidden {
+	opacity: 0;
+	visibility: hidden;
+}
 
 
 
